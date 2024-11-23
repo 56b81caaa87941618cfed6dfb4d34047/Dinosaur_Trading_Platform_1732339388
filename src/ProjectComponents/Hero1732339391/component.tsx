@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center h-full">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl font-bold mb-4">Unleash Your Inner Paleontologist</h1>
-          <p className="text-xl mb-6">Buy, sell, and trade prehistoric wonders in the world's premier dinosaur marketplace</p>
+          <p className="text-xl mb-6">Buy, sell, and trade preaaaaahistoric wonders in the world's premier dinosaur marketplace</p>
         </div>
       </div>
     </div>
