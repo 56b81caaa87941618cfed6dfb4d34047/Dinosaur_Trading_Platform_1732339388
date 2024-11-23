@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "DinoTrade",
+        "HERO_HEADING_TEXT": "Unleash Your Inner Paleontologist",
+        "HERO_SUBHEADING_TEXT": "Buy, sell, and trade prehistoric wonders in the world's premier dinosaur marketplace",
+        "FOOTER_TEXT": "\u00a9 2023 DinoTrade. Bringing the Jurassic era to your doorstep."
+    }
+}
