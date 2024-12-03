@@ -18,4 +18,3 @@ const Hero: React.FC = () => {
 };
 
 export { Hero as component };
-export { Hero as component }
