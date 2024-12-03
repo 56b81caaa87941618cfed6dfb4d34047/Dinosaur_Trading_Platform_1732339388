@@ -67,5 +67,20 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "d6d553d1-a264-4ed3-a91c-fbf1423ea2ad",
+        "timestamp": "2024-12-03T21:47:32.428300Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_ru7PvpNetifqSYQTbwmthDzc",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732339391\",\"image_gen_prompt\":\"rock\",\"placement_instructions\":\"replace the dinosaur image with a rock image\",\"acknowledgement_message\":\"Replacing the image with a rock...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
     }
 ]
