@@ -100,5 +100,13 @@
         "metadata": {
             "tool_call_id": "call_ru7PvpNetifqSYQTbwmthDzc"
         }
+    },
+    {
+        "id": "d221209a-70a5-4636-9065-e33124016e61",
+        "timestamp": "2024-12-03T21:47:47.144459Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been replaced with a rock. What else would you like to do?",
+        "metadata": {}
     }
 ]
