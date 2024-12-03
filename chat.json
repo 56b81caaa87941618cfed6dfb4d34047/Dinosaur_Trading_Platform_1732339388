@@ -31,5 +31,13 @@
             },
             "type": "function"
         }
+    },
+    {
+        "id": "97a3f68f-ec6a-498a-b0c4-6d6d166e5858",
+        "timestamp": "2024-12-03T21:32:47.734850Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Replacing the image with a dinosaur...",
+        "metadata": {}
     }
 ]
