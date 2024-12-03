@@ -12,8 +12,10 @@ const Hero: React.FC = () => {
         <div className="md:w-1/2">
           <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Dinosaur_Trading_Platform_1732339388/main/src/assets/images/5c76fa2e6b4e49239c087d1802f6d6bc.jpeg" alt="Dinosaur" className="w-full h-auto rounded-lg shadow-md" />
         </div>
+      </div>
     </div>
   );
 };
 
+export { Hero as component };
 export { Hero as component }
