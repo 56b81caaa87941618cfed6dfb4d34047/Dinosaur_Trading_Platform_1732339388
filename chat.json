@@ -57,5 +57,15 @@
         "source": "base_assistant",
         "content": "The image has been replaced with a dinosaur. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "d6f55f5c-8e12-4533-b1b6-d563f4595e7b",
+        "timestamp": "2024-12-03T21:47:29.325331Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image to be of a rock",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
