@@ -49,5 +49,13 @@
         "metadata": {
             "tool_call_id": "call_5cWCIqya40VMnMFJGP5njdCI"
         }
+    },
+    {
+        "id": "d67043db-8044-43f4-9f5d-8c5bd47dd9aa",
+        "timestamp": "2024-12-03T21:33:03.813358Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been replaced with a dinosaur. What would you like to do next?",
+        "metadata": {}
     }
 ]
