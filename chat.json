@@ -357,5 +357,56 @@
         "source": "base_assistant",
         "content": "I'm unable to directly remove images. Please select and remove the image component from the canvas yourself. After that, I can assist you with further modifications.",
         "metadata": {}
+    },
+    {
+        "id": "9f634e77-d813-4a32-9ded-ec325532c6cf",
+        "timestamp": "2024-12-04T21:10:24.201965Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Just edit the code to remove the image",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
+    },
+    {
+        "id": "3094061c-d176-47f8-93d6-8115c386f8e5",
+        "timestamp": "2024-12-04T21:10:26.666277Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_vnvf3Dsup4s91LQoQnaqtzme",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732339391\",\"change_description\":\"remove all images\",\"acknowledgement_message\":\"Removing all images from the component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "50b794aa-fb84-473e-8383-741112317011",
+        "timestamp": "2024-12-04T21:10:26.687489Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Removing all images from the component...",
+        "metadata": {}
+    },
+    {
+        "id": "a5643d3e-82d2-4849-9c70-464311153f9a",
+        "timestamp": "2024-12-04T21:10:34.345998Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "diff --git a/src/ProjectComponents/Hero1732339391/component.tsx b/src/ProjectComponents/Hero1732339391/component.tsx\nindex 3cc7abb..c0bfb7e 100755\n--- a/src/ProjectComponents/Hero1732339391/component.tsx\n+++ b/src/ProjectComponents/Hero1732339391/component.tsx\n@@ -5,13 +5,10 @@ const Hero: React.FC = () => {\n   return (\n     <div className=\"bg-black py-16 text-white w-full h-full\">\n       <div className=\"container mx-auto px-4 flex flex-col md:flex-row items-center h-full\">\n-        <div className=\"md:w-1/2 mb-8 md:mb-0\">\n+        <div className=\"md:w-full\">\n           <h1 className=\"text-4xl font-bold mb-4\">Unleash Your Inner Paleontologist</h1>\n           <p className=\"text-xl mb-6\">Buy, sell, and trade preaaaaahistoric wonders in the world's premier dinosaur marketplace</p>\n         </div>\n-        <div className=\"md:w-1/2\">\n-          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Dinosaur_Trading_Platform_1732339388/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/e06abc68a2994f44959707af090900a9.jpeg`} alt=\"Rock\" className=\"w-full h-auto rounded-lg shadow-md\" />\n-        </div>\n       </div>\n     </div>\n   );\n",
+        "metadata": {
+            "tool_call_id": "call_vnvf3Dsup4s91LQoQnaqtzme"
+        }
+    },
+    {
+        "id": "e827207f-4b35-4836-adf4-ee4a1cbbeb8f",
+        "timestamp": "2024-12-04T21:10:35.897283Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "All images have been successfully removed from the component. What would you like to do next?",
+        "metadata": {}
     }
 ]
