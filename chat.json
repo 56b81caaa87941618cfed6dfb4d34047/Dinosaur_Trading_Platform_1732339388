@@ -357,5 +357,15 @@
         "source": "base_assistant",
         "content": "I'm unable to directly remove images. Please select and remove the image component from the canvas yourself. After that, I can assist you with further modifications.",
         "metadata": {}
+    },
+    {
+        "id": "9f634e77-d813-4a32-9ded-ec325532c6cf",
+        "timestamp": "2024-12-04T21:10:24.201965Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Just edit the code to remove the image",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
