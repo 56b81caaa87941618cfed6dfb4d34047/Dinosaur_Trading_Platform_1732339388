@@ -138,5 +138,15 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "5b230b62-3981-4581-891b-46724275cc21",
+        "timestamp": "2024-12-04T08:50:52.135075Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "change the image of a rock to a dinosaur",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
