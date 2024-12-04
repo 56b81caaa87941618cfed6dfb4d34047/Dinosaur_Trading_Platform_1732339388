@@ -237,5 +237,15 @@
         "source": "base_assistant",
         "content": "To add a new image, please go to the \"Components\" tab, drag and drop the image component into the canvas, and then I can help you further.",
         "metadata": {}
+    },
+    {
+        "id": "8b2d58b1-12d7-40b4-a83d-a748af48da1b",
+        "timestamp": "2024-12-04T09:08:09.730322Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image from an orange to a car",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
