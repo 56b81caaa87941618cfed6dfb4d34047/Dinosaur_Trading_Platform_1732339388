@@ -168,5 +168,15 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "c3b29d88-d064-45a9-8995-9d247c21e1a8",
+        "timestamp": "2024-12-04T09:02:03.854771Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image of the rock to an orange",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
