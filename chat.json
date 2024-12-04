@@ -288,5 +288,56 @@
         "source": "base_assistant",
         "content": "The image has been replaced with a car. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "1b42ee75-39f9-40a8-9bde-b7cb6c5167c4",
+        "timestamp": "2024-12-04T09:26:29.026056Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image from a car to a rock",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
+    },
+    {
+        "id": "f720fade-9495-4664-aa96-dd1872506349",
+        "timestamp": "2024-12-04T09:26:31.876221Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_nagHqZqjYEMCeYGQFCO6CbpK",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732339391\",\"image_gen_prompt\":\"rock\",\"placement_instructions\":\"replace the car image with a rock image\",\"acknowledgement_message\":\"Replacing the image with a rock...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "f46fc6dc-5be8-4ec2-aca1-38e8b6059910",
+        "timestamp": "2024-12-04T09:26:31.899109Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Replacing the image with a rock...",
+        "metadata": {}
+    },
+    {
+        "id": "2c89b89c-4657-4b4a-baa2-7a7d4bd16de5",
+        "timestamp": "2024-12-04T09:26:47.429901Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_nagHqZqjYEMCeYGQFCO6CbpK"
+        }
+    },
+    {
+        "id": "d17043f0-960d-4c95-8157-82ea730c4693",
+        "timestamp": "2024-12-04T09:26:48.563975Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been replaced with a rock. Is there anything else you need?",
+        "metadata": {}
     }
 ]
