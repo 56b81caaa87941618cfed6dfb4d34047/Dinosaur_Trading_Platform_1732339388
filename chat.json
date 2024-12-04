@@ -118,5 +118,15 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "bf080c2b-fc09-4a16-b8fb-f4ddfd6b8344",
+        "timestamp": "2024-12-04T08:47:24.548609Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Remove all images from this component",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
