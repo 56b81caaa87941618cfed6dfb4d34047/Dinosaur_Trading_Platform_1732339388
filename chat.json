@@ -237,5 +237,56 @@
         "source": "base_assistant",
         "content": "To add a new image, please go to the \"Components\" tab, drag and drop the image component into the canvas, and then I can help you further.",
         "metadata": {}
+    },
+    {
+        "id": "8b2d58b1-12d7-40b4-a83d-a748af48da1b",
+        "timestamp": "2024-12-04T09:08:09.730322Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image from an orange to a car",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
+    },
+    {
+        "id": "acde5c43-b021-4442-b984-4da4392dab2b",
+        "timestamp": "2024-12-04T09:08:13.338917Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_HamNTBRc1vSFjkNoeSpVjHqG",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732339391\",\"image_gen_prompt\":\"car\",\"placement_instructions\":\"replace the orange image with a car image\",\"acknowledgement_message\":\"Replacing the image with a car...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "30a2c9e2-ac97-4a6a-8e8d-57ddebaca8ad",
+        "timestamp": "2024-12-04T09:08:13.358437Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Replacing the image with a car...",
+        "metadata": {}
+    },
+    {
+        "id": "511fcd90-97f4-4be7-908e-bc74846ad466",
+        "timestamp": "2024-12-04T09:08:25.400775Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_HamNTBRc1vSFjkNoeSpVjHqG"
+        }
+    },
+    {
+        "id": "6a09ee17-1f20-4fc9-8b84-ffc9805035af",
+        "timestamp": "2024-12-04T09:08:27.381978Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been replaced with a car. What would you like to do next?",
+        "metadata": {}
     }
 ]
