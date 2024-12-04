@@ -408,5 +408,15 @@
         "source": "base_assistant",
         "content": "All images have been successfully removed from the component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "a7f34a3b-2c5f-42e3-a3b6-da137f3141a3",
+        "timestamp": "2024-12-04T21:10:47.201084Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Now add an email form to santa",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
     }
 ]
