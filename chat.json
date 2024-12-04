@@ -229,5 +229,13 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "1c437f21-34cd-460c-ba3d-2e76611cb5d5",
+        "timestamp": "2024-12-04T09:07:53.893089Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "To add a new image, please go to the \"Components\" tab, drag and drop the image component into the canvas, and then I can help you further.",
+        "metadata": {}
     }
 ]
