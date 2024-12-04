@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
           <p className="text-xl mb-6">Buy, sell, and trade preaaaaahistoric wonders in the world's premier dinosaur marketplace</p>
         </div>
         <div className="md:w-1/2">
-          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Dinosaur_Trading_Platform_1732339388/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/cd3b6b04ac7c4ffdb28e5942ef9c1c9d.jpeg`} alt="Rock" className="w-full h-auto rounded-lg shadow-md" />
+          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Dinosaur_Trading_Platform_1732339388/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/f4b4daaa2ef64357ac702b7c31d44bcc.jpeg`} alt="Orange" className="w-full h-auto rounded-lg shadow-md" />
         </div>
       </div>
     </div>
