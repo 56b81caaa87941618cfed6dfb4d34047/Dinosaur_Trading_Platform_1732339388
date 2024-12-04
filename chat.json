@@ -349,5 +349,13 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "078de490-f0e5-423f-a5dc-8157c1b28fdd",
+        "timestamp": "2024-12-04T21:10:11.053312Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I'm unable to directly remove images. Please select and remove the image component from the canvas yourself. After that, I can assist you with further modifications.",
+        "metadata": {}
     }
 ]
