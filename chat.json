@@ -168,5 +168,56 @@
         "metadata": {
             "component_id": "Hero1732339391"
         }
+    },
+    {
+        "id": "c3b29d88-d064-45a9-8995-9d247c21e1a8",
+        "timestamp": "2024-12-04T09:02:03.854771Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the image of the rock to an orange",
+        "metadata": {
+            "component_id": "Hero1732339391"
+        }
+    },
+    {
+        "id": "2724cba3-60d6-45f6-a8d7-f530b80bf0a3",
+        "timestamp": "2024-12-04T09:02:06.660799Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_NL9rqHcKDAdm5rGMyKfnGaAk",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732339391\",\"image_gen_prompt\":\"orange\",\"placement_instructions\":\"replace the rock image with an orange image\",\"acknowledgement_message\":\"Replacing the image with an orange...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "4bcc2deb-8bf3-41fc-9076-bd77a45eb927",
+        "timestamp": "2024-12-04T09:02:06.679258Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Replacing the image with an orange...",
+        "metadata": {}
+    },
+    {
+        "id": "99bb8e8d-c8df-48d1-9f3a-d1b202756083",
+        "timestamp": "2024-12-04T09:02:18.852620Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_NL9rqHcKDAdm5rGMyKfnGaAk"
+        }
+    },
+    {
+        "id": "8e84517a-eb16-406c-a395-3cc85f952aec",
+        "timestamp": "2024-12-04T09:02:20.592056Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been replaced with an orange. Is there anything else you would like to modify?",
+        "metadata": {}
     }
 ]
